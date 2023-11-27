@@ -1,0 +1,56 @@
+header {
+  width: 80vw;
+  margin: 30px 10vw;
+  background-color: black;
+  border: red 3px solid;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+header div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 20px 0;
+}
+
+main {
+  width: 80vw;
+  margin: 20px 10vw;
+  border: 3px solid green;
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+}
+main .sbl {
+  width: 80%;
+  margin: 0 10%;
+  background-color: blue;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+main .sgr {
+  width: 80%;
+  margin: 0 10%;
+  background-color: rgb(0, 255, 42);
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  width: 80vw;
+  margin: 30px 10vw;
+  background-color: black;
+  border: rgb(17, 0, 255) 3px solid;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}/*# sourceMappingURL=main.css.map */
